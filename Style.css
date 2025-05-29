@@ -85,10 +85,12 @@ body *{
 .light #switch button{
     animation: slide-in 0.4s forwards;
     
+    
 }
 
 #switch button:hover {
     outline: 8px solid var(--highlight-color);
+    
 }
 
 #switch span{
@@ -97,6 +99,7 @@ body *{
     height: 24px;
     background: var(--surface-color);
     border: 1px solid var(--strock-color);
+    backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 9999px;
 
